@@ -1,0 +1,17 @@
+@use 'variables';
+
+.footer {
+    text-align: center;
+    padding: 20px 0; 
+    background-color: variables.$black1; 
+    color: variables.$textColor; 
+    font-size: 14px; 
+
+    p {
+        margin: 0; 
+    }
+
+    @media (max-width: 640px) {
+        font-size: 12px; 
+    }
+}

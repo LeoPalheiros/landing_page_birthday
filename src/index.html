@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Birthday Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./Images/birthday-cakes.jpg" alt="birthday cakes">
+            <p class="hero__text">
+                Meu aneiversario será daqui a <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Minha casa - Cruzeiro - São Vicente de Minas
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 999,90
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        15/04/2025 às 00hrs
+                    </li>
+                </ul>
+                <a class="buttons buttons--primary" href="#">Confirmar presença</a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--me">
+        <div class="container" data-aos="flip-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Eu</h2>
+                <p class="event__details__description">
+                    Meu nome é Leonardo Palheiros Landim, tenho 25 anos e nasci no dia 15 de abril de 1999.
+                </p>
+                <br/>
+                <ul>
+                    <li><strong>Altura:</strong> 165cm</li>
+                    <li><strong>Peso:</strong> 72kg</li>
+                    <li><strong>Signo:</strong> Áries</li>
+                    <li><strong>Atualmente:</strong> Estou estudando e me especializando em programação front-end.</li>
+                </ul>
+            </div>
+            <img class="event__image" src="./Images/eu.jpeg" alt="eu">
+        </div>
+    </section>
+    <section class="event event--gym event--image-left">
+        <div class="container" data-aos="flip-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Gym</h2>
+                <p class="event__details__description">
+                    A academia não é apenas meu principal hobby e atividade física, mas também uma parte essencial da minha rotina. Treinar seis vezes por semana me ajuda a evoluir fisicamente, aumentando minha força e definição muscular, mas os benefícios vão muito além do corpo. A musculação se tornou um pilar para minha saúde mental, ajudando a aliviar o estresse, melhorar meu foco e manter minha disciplina em outras áreas da vida. Cada treino é uma forma de superar meus próprios limites e fortalecer não só os músculos, mas também a mente.
+                </p>
+            </div>
+            <img class="event__image" src="./Images/gym.jpeg" alt="gym">
+        </div>
+    </section>
+    <section class="event event--zeus">
+        <div class="container" data-aos="flip-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Meu Cachorro</h2>
+                <p class="event__details__description">
+                    Zeus, meu Border Collie, nasceu no dia 30 de agosto de 2023 e é uma parte essencial da minha vida. Além de ser extremamente inteligente e enérgico, ele me acompanha no dia a dia, trazendo alegria e companhia. Ter o Zeus ao meu lado não é apenas uma experiência incrível, mas também uma conexão verdadeira, onde cada momento juntos fortalece nosso laço. Ele é um parceiro fiel que faz meus dias serem mais leves e cheios de vida.
+                </p>
+            </div>
+            <img class="event__image" src="./Images/zeus.jpeg" alt="Zeus">
+        </div>
+    </section>
+    <section class="event event--hobbies event--image-left">
+        <div class="container" data-aos="flip-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Hobbies</h2>
+                <p class="event__details__description">
+                    meus hobbies são:
+                </p>
+                <br/>
+                <ul>
+                    <li>Livros</li>
+                    <li>Animes</li>
+                    <li>Séries e filmes</li>
+                    <li>Jogos</li>
+                </ul>
+            </div>
+            <img class="event__image" src="./Images/madara.jpg" alt="Madara">
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Todos os direitos reservados ao criador da página. A última imagem foi salva do Pinterest.</p>
+    </footer>
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>   
+</body>
+</html>
